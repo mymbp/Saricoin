@@ -22,7 +22,7 @@
 //TODO Specify total number of available coins
 //TODO ((uint64_t)(-1)) equals to 18446744073709551616 coins
 //TODO or you can define number explicitly UINT64_C(858986905600000000)
-#define MONEY_SUPPLY                                   
+#define MONEY_SUPPLY                                   UINT64_C(240000000)
 #define EMISSION_SPEED_FACTOR                           (18)
 
 //TODO Define number of blocks for block size median calculation
@@ -37,7 +37,7 @@
 #define DEFAULT_FEE                                     
 
 //TODO Define preferred block's target time
-#define DIFFICULTY_TARGET                               60 // seconds
+define DIFFICULTY_TARGET                               60 // seconds
 //TODO There are options to tune CryptoNote's difficulty retargeting function. 
 //TODO We recommend not to change it.
 #define DIFFICULTY_WINDOW                               720 // blocks
