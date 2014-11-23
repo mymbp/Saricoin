@@ -60,7 +60,7 @@ define DIFFICULTY_TARGET                               60 // seconds
 //TODO This port will be used by the daemon to establish connections with p2p network
 #define P2P_DEFAULT_PORT                                
 //TODO This port will be used by the daemon to interact with simlewallet
-#define RPC_DEFAULT_PORT                                
+#define RPC_DEFAULT_PORT                                21030
 #define COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT           1000
 
 #define P2P_LOCAL_WHITE_PEERLIST_LIMIT                  1000
@@ -80,7 +80,7 @@ define DIFFICULTY_TARGET                               60 // seconds
 #define ALLOW_DEBUG_COMMANDS
 
 //TODO Put here the name of your currency
-#define CRYPTONOTE_NAME                         "freedomcoin"
+#define CRYPTONOTE_NAME                         "saricoin"
 #define CRYPTONOTE_BLOCKS_FILENAME              "blocks.dat"
 #define CRYPTONOTE_BLOCKINDEXES_FILENAME        "blockindexes.dat"
 #define CRYPTONOTE_BLOCKSCACHE_FILENAME         "blockscache.dat"
